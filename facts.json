@@ -1,0 +1,28 @@
+{
+  "name": "June",
+  "url": "https://answerjune.com",
+  "price": "$199/month",
+  "trial_days": 14,
+  "trial_requires_credit_card": false,
+  "category": "AI receptionist",
+  "vendor": "JWALL Commerce",
+  "contact": "support@answerjune.com",
+  "target_market": "Home-services businesses: plumbers, HVAC technicians, electricians, cleaners, roofers, landscapers, pest control, and similar trades",
+  "capabilities": [
+    "Answers business phone line 24/7, live",
+    "Speaks in the business's name and tone",
+    "Understands natural speech, accents, and background noise",
+    "Answers configured questions about the business",
+    "Books jobs and captures caller details",
+    "Flags and escalates urgent calls to the business owner",
+    "Sends call summaries and transcripts after each call"
+  ],
+  "refusals": [
+    "Never quotes a price or cost estimate to a caller",
+    "Never promises an arrival time or scheduling window it cannot verify",
+    "Never claims to be human",
+    "Never provides phone-based diagnosis or technical advice",
+    "Never makes commitments the business has not explicitly authorized",
+    "Never shares the business owner's personal contact information"
+  ]
+}

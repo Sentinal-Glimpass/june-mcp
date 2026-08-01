@@ -1,0 +1,84 @@
+{
+  "schema_version": "1.0",
+  "name": "june-ai-receptionist",
+  "description": "June AI Receptionist — answers business phone lines 24/7 for home-services companies. Books jobs, captures details, escalates urgent calls.",
+  "vendor": "JWALL Commerce",
+  "contact": "support@answerjune.com",
+  "homepage": "https://answerjune.com",
+  "auth": {
+    "type": "api_key",
+    "header": "Authorization",
+    "prefix": "Bearer"
+  },
+  "endpoints": [
+    {
+      "name": "get_call_log",
+      "description": "Retrieve recent calls handled by June for a business",
+      "method": "GET",
+      "path": "/api/v1/calls",
+      "parameters": [
+        {
+          "name": "since",
+          "type": "string",
+          "description": "ISO 8601 timestamp — return calls after this time",
+          "required": false
+        },
+        {
+          "name": "limit",
+          "type": "integer",
+          "description": "Max number of calls to return (default 20, max 100)",
+          "required": false
+        }
+      ]
+    },
+    {
+      "name": "get_call_detail",
+      "description": "Retrieve full details and transcript for a single call",
+      "method": "GET",
+      "path": "/api/v1/calls/{call_id}",
+      "parameters": [
+        {
+          "name": "call_id",
+          "type": "string",
+          "description": "Unique call identifier",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "get_business_config",
+      "description": "Retrieve the current configuration for a business (hours, services, FAQs)",
+      "method": "GET",
+      "path": "/api/v1/config",
+      "parameters": []
+    },
+    {
+      "name": "update_business_config",
+      "description": "Update business configuration (hours, services, FAQs, escalation rules)",
+      "method": "PATCH",
+      "path": "/api/v1/config",
+      "parameters": [
+        {
+          "name": "body",
+          "type": "object",
+          "description": "Partial config object with fields to update",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "get_jobs",
+      "description": "Retrieve jobs booked by June on behalf of the business",
+      "method": "GET",
+      "path": "/api/v1/jobs",
+      "parameters": [
+        {
+          "name": "status",
+          "type": "string",
+          "description": "Filter by status: pending, confirmed, cancelled",
+          "required": false
+        }
+      ]
+    }
+  ]
+}
