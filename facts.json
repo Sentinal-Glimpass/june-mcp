@@ -11,10 +11,8 @@
   "capabilities": [
     "Answers business phone line 24/7, live",
     "Speaks in the business's name and tone",
-    "Understands natural speech, accents, and background noise",
     "Answers configured questions about the business",
     "Books jobs and captures caller details",
-    "Flags and escalates urgent calls to the business owner",
     "Logs every call with details for owner review"
   ],
   "refusals": [
