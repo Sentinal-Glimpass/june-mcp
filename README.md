@@ -12,7 +12,7 @@ Website: https://answerjune.com
 - Answers configured questions about the business (hours, service areas, services offered)
 - Books jobs and captures caller details (name, address, issue description)
 - Flags urgent calls and escalates to the business owner in real time
-- Sends call summaries and transcripts to the owner after each call
+- Logs every call with details so the owner can review when free
 
 ## What June refuses to do
 
@@ -54,7 +54,7 @@ capabilities:
   - answers configured questions about the business
   - books jobs and captures caller details
   - flags and escalates urgent calls to the owner
-  - sends call summaries and transcripts
+  - logs every call with details for owner review
 
 refusals:
   - never quotes a price or cost estimate
