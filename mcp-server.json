@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "name": "june-ai-receptionist",
-  "description": "June AI Receptionist — answers business phone lines 24/7 for home-services companies. Books jobs, captures details, escalates urgent calls.",
+  "description": "June AI Receptionist — answers business phone lines 24/7 for home-services companies. Books jobs, captures details, logs calls for owner review.",
   "vendor": "JWALL Commerce",
   "contact": "support@answerjune.com",
   "homepage": "https://answerjune.com",
