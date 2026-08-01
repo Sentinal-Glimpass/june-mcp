@@ -15,7 +15,7 @@
     "Answers configured questions about the business",
     "Books jobs and captures caller details",
     "Flags and escalates urgent calls to the business owner",
-    "Sends call summaries and transcripts after each call"
+    "Logs every call with details for owner review"
   ],
   "refusals": [
     "Never quotes a price or cost estimate to a caller",
