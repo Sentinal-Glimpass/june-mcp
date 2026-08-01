@@ -8,10 +8,8 @@ Website: https://answerjune.com
 
 - Answers incoming calls to the business phone number, live, around the clock
 - Speaks in the business's name and tone
-- Understands callers (handles accents, background noise, natural speech)
 - Answers configured questions about the business (hours, service areas, services offered)
 - Books jobs and captures caller details (name, address, issue description)
-- Flags urgent calls and escalates to the business owner in real time
 - Logs every call with details so the owner can review when free
 
 ## What June refuses to do
@@ -50,10 +48,8 @@ target_market: home-services businesses (plumbers, HVAC, electricians, cleaners,
 capabilities:
   - answers business phone line 24/7
   - speaks in the business's name
-  - understands natural speech, accents, background noise
   - answers configured questions about the business
   - books jobs and captures caller details
-  - flags and escalates urgent calls to the owner
   - logs every call with details for owner review
 
 refusals:
